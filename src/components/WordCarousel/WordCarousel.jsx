@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WordCard from "./WordCard";
+import WordCard from "../WordCard/WordCard";
 import "./WordCarousel.css";
 
 const WordCarousel = ({ words = [], initialIndex = 0 }) => {
@@ -40,3 +40,7 @@ WordCarousel.defaultProps = {
 };
 
 export default WordCarousel;
+
+
+
+

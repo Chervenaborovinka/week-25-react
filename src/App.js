@@ -1,6 +1,6 @@
 
 import './App.css';
-import WordCarousel from './components/WordCarousel';
+import WordCarousel from './components/WordCarousel/WordCarousel';
 import words from "./data/words";
 
 function App() {
